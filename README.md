@@ -34,7 +34,7 @@ The script shows:
 2. **Make the script executable**
 
    ```bash
-   chmod +x docker-info.sh
+   chmod +x dockerinfo.sh
    ```
 3. **Run the script**
 
