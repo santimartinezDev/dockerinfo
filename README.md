@@ -1,4 +1,4 @@
-# Docker Info Bash Script
+# Docker Info Bash Script to LINUX
 
 This is a simple Bash script that displays key Docker information in your system:
 
