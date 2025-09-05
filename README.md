@@ -42,6 +42,11 @@ The script shows:
    ./dockerinfo.sh
    ```
 
+
+## Future improvements
+
+   Add the option for windows
+
 ## License
 This project is licensed under the MIT License. See the LICENSE
 file for more details.
