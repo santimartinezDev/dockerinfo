@@ -1,13 +1,13 @@
 #!/bin/bash
 
 images=$(docker images)
-nimages=$(docker images | wc -l)
+nimages=$(docker images | tail -n +2 | wc -l)
 
 containerON=$(docker ps)
-ncontainerON=$(docker ps | wc -l)
+ncontainerON=$(docker ps | tail -n +2 | wc -l)
 
 containerALL=$(docker ps -a)
-ncontainerALL=$(docker ps -a | wc -l)
+ncontainerALL=$(docker ps -a | tail -n +2 | wc -l)
 
 
 echo -e "\e[32m$nimages images:"
